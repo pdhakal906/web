@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+  </head>
+
+  <body>
+
+    <h1>This is contact page</h1>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati in assumenda blanditiis voluptatibus,
+      delectus veritatis commodi sint molestias ratione iusto.</p>
+
+    <form action="mailto:pdhakal906@gmail.com" method="post">
+      <formset>
+        <legend>Personal Information</legend>
+        <p>
+          <label for="email">Email:- </label>
+          <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+          <label for="name">Name:- </label>
+          <input type="text" id="name" name="name">
+        </p>
+        <p>
+          <label for="address">Address:- </label>
+          <input type="address" id="address" name="address">
+        </p>
+        <p>
+          <label for="date">Joined date:- </label>
+          <input type="date" id="date" name="date">
+        </p>
+
+        <p><strong>Select your hobbies</strong></p>
+        <p><label for="dance">Dance</label>
+          <input type="checkbox" checked id="dance" name="dance" value="dance">
+          <label for="sing">Sing</label>
+          <input type="checkbox" id="sing" name="sing" value="sing">
+          <label for="play">Play</label>
+          <input type="checkbox" id="play" name="play" value="play">
+        </p>
+
+        <p><strong>Select your gender</strong>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label>
+
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+        </p>
+
+        <p>
+        <p><strong>Remarks</strong></p>
+        <textarea name="remarks" id="remarks" cols="30" rows="10" placeholder="Your message"></textarea>
+        </p>
+
+        <p>
+        <p><strong>Color selelct</strong>
+          <input type="color">
+        </p>
+        </p>
+
+        <p>
+        <p>Select your country</p>
+        <select name="country" id="country">
+          <option value="Nepal">Nepal</option>
+          <option value="India">India</option>
+          <option value="Bangladesh" selected>Bangladesh</option>
+        </select>
+        </p>
+
+        <p>
+        <p>Select your coffee</p>
+        <select name="coffee" id="coffee">
+          <optgroup label="hard">
+            <option value="espresso">Espresso</option>
+            <option value="black">Black</option>
+            <option value="cappicuinco">Cappicuinco</option>
+          </optgroup>
+        </select>
+        </p>
+
+        <p>
+          <label for="image">Select an image</label>
+          <input type="file" id="image" name="image">
+        </p>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </formset>
+
+
+    </form>
+
+
+
+  </body>
+
+</html>
